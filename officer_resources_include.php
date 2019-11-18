@@ -1,11 +1,18 @@
 <!--
-I decided to use this PHP script as an example of code I wrote at CSEA. This file is located on the webserver that hosts CSEA's future Wordpress website. The purpose of this webpage is to display resources that are available to Union officers based on their ranking. It calls the API twice, once to check the officer status of the user and another to retrieve the resources that each officer has access to. It also uses Javascript to change the description of the resource before the user downloads it. I chose this code as my sample not because of I am super proud of it but I acknowledge it can be improved. 
+I decided to use this PHP script as an example of code I wrote at CSEA. This file is located on the webserver that hosts CSEA's future 
+Wordpress website. The purpose of this webpage is to display resources that are available to Union officers based on their ranking. It calls 
+the API twice, once to check the officer status of the user and another to retrieve the resources that each officer has access to. It also uses 
+Javascript to change the description of the resource before the user downloads it. I chose this code as my sample not because of I am super 
+proud of it but I acknowledge it can be improved. 
 
-While writing this code, I was under restrictions from my team. I was told I cannot use Javascript to make a request to the API. I would have loved to use AJAX to make aditional calls to the API to retrieve the resource description but instead I had to get creative in the way I pass data (that was retrieved using PHP) to be used in Javascript to change the description of the resource.
+While writing this code, I was under restrictions from my team. I was told I cannot use Javascript to make a request to the API. I would have 
+loved to use AJAX to make aditional calls to the API to retrieve the resource description but instead I had to get creative in the way I pass 
+data (that was retrieved using PHP) to be used in Javascript to change the description of the resource.
 -->
 
 <?php
-// Check user's office title using CSEA ID that is stored in a session variable and API URL that is stored in a global variable and API endpoint
+// Check user's office title using CSEA ID that is stored in a session variable and API URL that is stored in a global variable and API 
+endpoint
 $curl = curl_init();
 curl_setopt_array($curl, array(
 CURLOPT_URL => $GLOBALS['api_url'] . "officer_resources/vipinfo/". $_SESSION['csea_id'],
