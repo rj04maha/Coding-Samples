@@ -1,5 +1,9 @@
 /*
-This file is another example of code I wrote while I was at CSEA. This is part of the API that is used to get Officer Resources data from the server. The API is called in officer_resources_include.php twice. Once to get check the privileges of the user to see what kind of officer they are. The second API call fetches the Officer Resources that is stored in a database. Which resources that are retrieved depend on the ranking of the officer/user. Each row, or resource, in the database has columns that designate who has access to it with a 'Y' or 'N' for president, vice president, etc. 
+This file is another example of code I wrote while I was at CSEA. This is part of the API that is used to get Officer Resources data from the
+server. The API is called in officer_resources_include.php twice. Once to get check the privileges of the user to see what kind of officer
+they are. The second API call fetches the Officer Resources that is stored in a database. Which resources that are retrieved depend on the
+ranking of the officer/user. Each row, or resource, in the database has columns that designate who has access to it with a 'Y' or 'N' for
+president, vice president, etc. 
 
 */
 
