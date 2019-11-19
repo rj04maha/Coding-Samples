@@ -1,7 +1,9 @@
 /**
- * This is part of a Java applet that I and 4 others wrote in college in my Object Oriented Programming course. We used this file as the 'front 
- * end' of the program which uses a Mouse Listener to check where on the screen the user has clicked and then does the appropriate action based
- * on which point the user is at in the game. I worked with many other classes that my fellow teammates wrote such as StockCards.java, TrainGame.java, etc
+ * This is part of a Java applet that I and 4 others wrote in college in my Object Oriented Programming course. We used this file 
+ * as the 'front end' of the program which uses a Mouse Listener to check where on the screen the user has clicked and then does
+ * the appropriate action based on which point the user is at in the game. I worked with many other classes that my fellow
+ * teammates wrote such as StockCards.java, TrainGame.java, etc. I am proud of this code because it was my first time working in
+ * a large group with 'back end' and 'front end' components where I had to understand everything that someone else wrote.
  * 
  */
 
