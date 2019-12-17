@@ -7,4 +7,4 @@ These are some code samples that show off my abilities using PHP, Javascript and
 
 2. officer_resources.js - This file is part of the API that the PHP file calls to fetch the data. It has many routers to retrieve, insert and update data.
 
-3. TicketToRide.java - This file is an example of Java code that I wrote in college using obect oriented programming. The full repository for this game is in TickToRide repo on my github.
+ ![alt test](screenshots/officer_resources.gif)
